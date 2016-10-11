@@ -48,9 +48,6 @@ var _currentWebUrl = _spPageContextInfo.webAbsoluteUrl;
 var _currentSiteUrl = _spPageContextInfo.siteAbsoluteUrl;
 
 $(document).ready(function () {
-    alert('hello world');
-    alert('hello world');
-
     //richtext editor plugin initialize
     $('.trumbowygContainer').trumbowyg({
         svgPath: _currentWebUrl + '/discussionCatalog/css/libraries/icons.svg',
