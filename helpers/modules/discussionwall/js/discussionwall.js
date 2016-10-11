@@ -48,6 +48,8 @@ var _currentWebUrl = _spPageContextInfo.webAbsoluteUrl;
 var _currentSiteUrl = _spPageContextInfo.siteAbsoluteUrl;
 
 $(document).ready(function () {
+    alert('hello world');
+
     //richtext editor plugin initialize
     $('.trumbowygContainer').trumbowyg({
         svgPath: _currentWebUrl + '/discussionCatalog/css/libraries/icons.svg',
@@ -59,7 +61,7 @@ $(document).ready(function () {
         ]
     });
 
-    jQuery.getJSON(_currentSiteUrl + "/_api/SP.UserProfiles.PeopleManager/GetMyProperties/PictureUrl", function(data) {
+    jQuery.getJSON(_currentSiteUrl + "/_api/SP.UserProfiles.PeopleManager/GetMyProperties/PictureUrl", function (data) {
         $('.currentUserProfile').prepend('<img alt="Current User" src="' + data.value.toLowerCase().replace('mthumb', 'sthumb') + '" />');
     });
 });
