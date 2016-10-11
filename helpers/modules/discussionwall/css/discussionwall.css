@@ -1,0 +1,28 @@
+.trumbowyg-box, .trumbowyg-editor {
+    min-height: 100px;
+}
+
+.noPadding {
+    padding: 0px !important;
+}
+
+.noBorder {
+    border: 0px solid transparent !important;
+}
+
+.noMargin {
+    margin: 0px !important;
+}
+
+.noHide {
+    display: block !important;
+}
+
+.floatRight {
+    float: right !important;
+}
+
+.postDiscussionActionContainer {
+    margin-top: -17px !important;
+    margin-bottom: 17px !important;
+}
