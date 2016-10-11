@@ -49,6 +49,7 @@ var _currentSiteUrl = _spPageContextInfo.siteAbsoluteUrl;
 
 $(document).ready(function () {
     alert('hello world');
+    alert('hello world');
 
     //richtext editor plugin initialize
     $('.trumbowygContainer').trumbowyg({
